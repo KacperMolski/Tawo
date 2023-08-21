@@ -1,0 +1,406 @@
+
+@media screen and (max-width:1600px){
+    .lokalizacja-img-papowo img{
+        width: 45em;
+    }
+    
+.lokalizacja-img-papowo {
+    left:5%;
+    top: 15em;
+   
+    z-index: 100;
+  }
+}
+@media screen and (max-width: 1300px) {
+    .o-nas,.nasze-specjalizacje{
+      width: 20em;
+    }
+    .abaut-us-main-block-columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .abaut-us-main-block-column-black .logo-box {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    .cite-block i, .abaut-us-main-block-cloumn-black-inwestor i{
+        font-style: italic;
+     
+        margin-top: 3em;
+        color:rgba(255, 255, 255, 0.6 );
+      }
+
+    .abaut-us-main-block-column-white .logo-box {
+        display: none;
+    }
+    .imgBox-abaut-us:nth-child(2),.imgBox-abaut-us:nth-child(3),.imgBox-abaut-us:nth-child(4){
+        padding: 2em 2em 2em 2em;
+      }
+    .podmiejskistyl-inf{
+      padding: 3em 3em 0em 3em;
+    }
+    .podmiejskistyl-inf-box{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+
+ 
+    }
+    .podmiejskistyl-inf-box :nth-child(3) {
+        
+      
+        width:80%;
+     
+    }
+    .nasze-specjalizacje{
+        align-items: start;
+        padding: 0em 0em;
+        margin: 0 auto;
+        
+    }
+    .podmiejskistyl-img img{
+      margin: 0 10%;
+      width: 80%;
+    }
+    .res-bloc-podmiejskistyl{
+        justify-content: space-between;
+    }
+    .house-nasze-specjalizacje{
+        width: 50em;
+        margin: auto;
+        padding: 5em 0em;
+      }
+    .nasze-specjalizacje ul {
+        justify-self: start;
+        padding-left: 5em;
+    }
+    .nasze-specjalizacje h2 {
+        padding-left: 0em;
+    
+    }
+    .list-element {
+        padding-left: 0em;
+        margin-left: 0em;
+    }
+    
+    
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aktualnosci{
+        padding: 3em 3em 3em 3em ;
+    }
+    .aktualnosci-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aktualnosci-item {
+        justify-self: center;
+        width: 20em;
+        height: 20em;
+    }
+    .aktualnosci-item div{
+        justify-self: center;
+        width: 20em;
+        height: 20em;
+        }
+        /* h1 {
+          font-size: 32px;
+        }
+        
+        h2 {
+          font-size: 28px;
+        }
+        
+        p{
+          font-size: 21px;
+        }
+        
+        li{
+          font-size: 21px;
+        } */
+    .container_osiedla{
+        padding: 3em 0em 3em 3em ;
+    }
+    .wyroznienie{
+        padding: 3em 3em 3em 3em ;
+    }
+    .wyroznienie-blok {
+        display: flex;
+        flex-direction: column;
+      }
+ 
+      .wyroznienie-blok img{
+        order: 0;
+        width:  50em;
+        margin: 5em 0em ;
+        justify-self: center;
+      }
+      .wyroznienie-blok img:nth-child(2){
+        justify-self: center;
+      }
+      .wyroznienie-blok ul{
+        order: 1;
+      }
+      .row{
+        flex-direction: column;
+      }
+      .container-home{
+        margin-bottom: 3em;
+        width: 90%;
+      }
+      .container-home-news{
+        width: 90%;
+        margin-bottom: 3em;
+      }
+      .container{
+        width: 90%;
+        margin-bottom: 3em;
+      }
+      .login-form input[type="text"],
+.login-form input[type="password"],.register-form input[type="text"],
+.register-form input[type="password"], .home-content input[type="text"],.home-content input[type="date"],.home-content textarea {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 15%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button,.register-form button, .home-content button,.home-content input[type="file"] {
+  width: 40%;
+  padding: 10px;
+  margin: 10px 30%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+      /* //////////////////////////////////////////////////// */
+.mobile-nav {
+            position: fixed;
+            top: 0;
+            left: -300px; /* Ukrycie początkowe */
+            width: 300px;
+            height: 100vh;
+            background-color: #f1f1f1;
+            padding: 20px;
+            transition: left 0.3s ease;
+        }
+
+        .mobile-nav.open {
+            left: 0; /* Wyświetlenie menu */
+        }
+
+        /* Style dla przycisku otwierającego menu */
+        .mobile-nav-toggle {
+            display: flex;
+            position: fixed;
+            top: 15px;
+            font-size: 2em;
+            
+        }
+        
+        .mobile-nav{
+            z-index: 10001;
+            
+        }
+        .mobile-nav-content{
+            display: flex;
+            flex-direction: column;
+        }
+        .mobile-nav-content a{
+            font-size: 2.5em;
+            text-decoration: none;
+            margin: 0.4em 0em;
+            color: rgba(0, 0, 0, 0.67 );;
+            font-weight: bold;
+        }
+        .main_nav_content{
+            display: none;
+        }
+        .main-mobile-nav-toggle{
+            display: flex;
+            width: 5em;
+            height: 5em;
+            color: black;
+            z-index: 100001;
+        }
+        /* ///////////////////////////////////////// */
+        .buttons-aktualnosci-title h1{
+            font-size: 1.5em;
+        }
+        .aktualnosci-main-container{
+            padding: 3em 1em;
+        }
+        .aktualnosci-full-box-text{
+            padding-right: 1em;
+            height: 100%;
+            background-color: #f1f1f1;
+            padding: 5em 3em;
+        }
+        .aktualnosci-full-box:nth-child(odd){
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-bottom: 5em;
+        }
+        .aktualnosci-full-box{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-bottom: 5em;
+        }
+        .abautus-full-box{
+          width: 100%;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          margin-bottom: 5em;
+      }
+      .abautus-full-box-text{
+        padding-right: 1em;
+        height: 100%;
+        background-color: #f1f1f1;
+        padding: 5em 3em;
+    }
+      .abautus-full-box:nth-child(odd){
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 5em;
+    }
+        .map{
+            width: 100%;
+            padding: 3em 0.5em 0em 0.5em;
+          }
+          .lokalizacja-title{
+            padding: 3em 3em;
+          }
+          .lokalizacja-content{
+            width: 100%;
+            height: auto;
+            padding: 3em 0em 3em 3em;
+            background-color: #2E2E2E;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: inherit;
+          }
+          .lokalizacja-content p{
+            width: 100%;
+          }
+          .lokalzacja-box{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            
+          }
+          .lokalizacja-img{
+            position: inherit;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2E2E2E;
+            left: auto;
+            top:auto;
+            padding:3em 0em;
+            
+          }
+          .lokalzacja-box:nth-child(2){
+            flex-direction: column-reverse;
+          }
+          .lokalizacja-img-papowo{
+            left: auto;
+            top: auto;
+            z-index: 100;
+            order: 1;
+          }
+          .lokalizacja-content-papowo{
+            padding: 3em 0em 3em 3em;   
+            right: 0;
+            order: 0;
+          }
+          .lokalizacja-title-papowo{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: end;
+            text-align: left;
+            
+          }
+          .kontakt-columns{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding: 10em 0em 10em 0em;
+          }
+          .kontakt-column-dane{
+            background-color: #1e1e1e;
+            color: white;
+            padding: 2em;
+            height: 40em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .column-dane{
+            margin-top: 2em;
+          }
+          .column-dane, .column-dane a,span{
+            color:      rgba(255, 255, 255, 0.6 );
+            font-size: 1.1em;
+          }
+         
+          .kontakt-column-logo{
+            height: 40em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;align-items: center;
+            border: 5px solid #1e1e1e;
+          }
+          .kontakt-column-logo img{
+            width: 80%;
+          }
+          .home_desc{
+            width: 100%;
+            flex-direction: column;
+          }
+          .home_desc_block{
+            width: 100%;
+            
+          }
+          .home_desc_block img{
+            padding: 0;
+          }
+          .m5_text{
+            width: 100%;
+            padding-top: 2em;
+          }
+          .special_home_desc i {
+            margin: 2em 0 0 0 ;
+        }
+        .video{
+            width: 100%;
+        }
+        .home_desc ul{
+            padding-top: 2em;
+            width: 90%;
+        }
+        video{
+            width: 100%;
+        }
+} 
+@media screen and (max-width: 1000px){
+    .house-nasze-specjalizacje{
+
+        width: 40em;
+     
+      }
+   
+}
